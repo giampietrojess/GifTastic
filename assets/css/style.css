@@ -13,7 +13,11 @@ body {
     width: 315px;
     
 }
-
+button, input, optgroup, select, textarea {
+    font-family: 'Indie Flower', cursive;
+    margin: 3px;
+    color: #444;
+}
 .television {
     background-image:url("../images/TV.png");
     background-repeat: no-repeat;
@@ -31,6 +35,9 @@ body {
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #d6d6d6;
 }
 h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
