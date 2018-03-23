@@ -5,9 +5,9 @@ body {
 }
 
 .gif {
-    display: inline-block;
-    width: 323px;
     float: left;
+    width: 315px;
+    
 }
 
 .television {
