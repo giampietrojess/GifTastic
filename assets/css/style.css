@@ -4,6 +4,10 @@ body {
     background-repeat: repeat;
 }
 
+header {
+    text-align: center;
+    background-color: #ef7ef9;
+}
 .gif {
     float: left;
     width: 315px;
@@ -13,6 +17,7 @@ body {
 .television {
     background-image:url("../images/TV.png");
     background-repeat: no-repeat;
+    margin-bottom:20px;
 }
 
 #gifDump {
