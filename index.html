@@ -14,20 +14,62 @@
         <link href="https://fonts.googleapis.com/css?family=Cinzel|Open+Sans+Condensed:300|Crimson+Text" rel="stylesheet">
         
         <!-- Page Title -->
-        <title>Giftastic TV</title>
+        <title>Video Game Gifology</title>
 
     </head>
     <body>
         
+        <div class="container">
+
+
+            <h1>Video Game Gifology!</h1>
+            <h2>Click a button to generate video game gifs!</h2>
+            
+            <div id="buttonsView">
+            </div>
+            <br><br>
+            <div id="form">
+                <form id="game-form">
+                    <label for="game-input">Wanna see GIFs from another Game? Write it here:</label>
+                    <input type="text" id="game-input">
+        
+                    <input id="addGame" type="submit" value="Add Game">
+                </form>
+                <br><br>
+            </div>
+
+            <div class="d-flex justify-content-center television">
+                <!-- <div class="television"> -->
+                    <div id="gifDump">
+                        <!-- Gifs dump here -->
+                    </div>
+                <!-- </div> -->
+            </div>   
+            
+            
+
+        </div>
+        
+        <!--<img src="assets/css/squiggles.png" class="squiggle" />-->
+        
+        <!-- border divs-->
+        <div id="top">
+        </div>
+        <div id="bottom">
+        </div>
+        <div id="left">
+        </div>
+        <div id="right">
+        </div>
+        
+        
         
 
         
-
-        <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="assets/java/game.js"></script>
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>

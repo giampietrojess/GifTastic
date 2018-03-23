@@ -1,0 +1,26 @@
+body {
+    background-color: #fff;
+    background-image:url("../images/bg.png");
+    background-repeat: repeat;
+}
+
+.gif {
+    display: inline-block;
+    width: 323px;
+    float: left;
+}
+
+.television {
+    background-image:url("../images/TV.png");
+    background-repeat: no-repeat;
+}
+
+#gifDump {
+    background-image:url("../images/Tvbackground.gif");
+    position: relative;
+    height: 656px;
+    width: 656px;
+    overflow: scroll;
+    border: 5px #000 solid;
+    margin: 40px 34px;
+}
