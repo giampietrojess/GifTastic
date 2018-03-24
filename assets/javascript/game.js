@@ -17,7 +17,8 @@ function makeButtons(){
         a.text(games[i]); 
         //add the button to the DOM
 		$('#buttonsView').append(a);
-	}
+    }
+
 }
 
 // Calls the makeButtons function
@@ -97,6 +98,11 @@ $(document).on('click', '.gif', function(){
             };
 });
 
+//Button to clear gifs in gifDump
+$("#clear").on("click", function(event){
+    event.preventDefault();
+    $('#gifDump').empty();
+});
 
 
 // function for displaying game gifs
