@@ -6,17 +6,19 @@ body {
 
 .header {
     text-align: center;
-    background-color: #ef7ef9;
 }
 .gif {
     float: left;
-    width: 315px;
-    
+    width: 50%;
+    height: 200px;  
+}
+p {
+    color: #fff;
 }
 button, input, optgroup, select, textarea {
     font-family: 'Nanum Pen Script', cursive;
     margin: 3px;
-    color: #444;
+    color: #333;
     box-shadow: 2px 2px 2px;
     text-transform: uppercase;
     font-size: 20px;
@@ -26,7 +28,7 @@ button:hover {
     color: #ccc;
 }
 .television {
-    background-image:url("../images/TV.png");
+    background-image:url("../images/simple-background-2048x1152.jpg");
     background-repeat: no-repeat;
     margin-bottom:20px;
 }
@@ -34,11 +36,20 @@ button:hover {
 #gifDump {
     background-image:url("../images/Tvbackground.gif");
     position: relative;
-    height: 656px;
-    width: 656px;
+    width: 60%;
+    height: 550px;
     overflow: scroll;
     border: 5px #000 solid;
     margin: 40px 34px;
+}
+.sidebar {
+    width: 30%;
+    height: 550px;
+    position: relative;
+    margin-top: 40px;
+    overflow: scroll;
+    margin-left: -10px;
+
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
