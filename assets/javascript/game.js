@@ -1,5 +1,5 @@
 // Declare the Variables
-var games = ["Bioshock", "Bioshock Infinite", "The Last of Us", "Tomb Raider", "Mass Effect", "Dragon Age", "Fall Out", "Portal", "Overwatch", "Kingdom Hearts", "Final Fantasy", "Thief", "Sea of Thieves", "Pokemon", "Assasins Creed", "The Wolf Among Us"];
+var games = ["Bioshock", "Bioshock Infinite", "The Last of Us", "Tomb Raider", "Mass Effect", "Dragon Age", "Fall Out: New Vegas", "Portal", "Overwatch", "Kingdom Hearts", "Final Fantasy", "Thief", "Sea of Thieves", "Pokemon", "Assasins Creed", "The Wolf Among Us"];
 
 // Make Button Function
 function makeButtons(){ 
