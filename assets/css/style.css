@@ -78,6 +78,12 @@ p {
     .gif{
         width: 100%;
      }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
