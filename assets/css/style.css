@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    background-image:url("../images/bg.png");
+    background-image:url("../images/gaming-pattern.png");
     background-repeat: repeat;
 }
 
@@ -12,9 +12,7 @@ body {
     width: 50%;
     height: 200px;  
 }
-p {
-    color: #fff;
-}
+
 button, input, optgroup, select, textarea {
     font-family: 'Nanum Pen Script', cursive;
     margin: 3px;
@@ -49,7 +47,12 @@ button:hover {
     margin-top: 40px;
     overflow: scroll;
     margin-left: -10px;
+    text-align: center;
 
+}
+#buttonsView {
+    overflow: scroll;
+    height: 350px
 }
 h1 {
     font-family: 'Orbitron', sans-serif;
@@ -64,3 +67,23 @@ h2 {
     margin-top: -25px;
     text-transform: uppercase;
 }
+p {
+    color: #fff;
+    margin-top: 20px;
+}
+/* MEDIA QUERIES */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .gif{
+        width: 100%;
+     }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .gif{
+        width: 100%;
+     }
+    }
+ 
+    }
